@@ -41,7 +41,7 @@ body {
 }
 
 .sidebar .nav-links {
-    margin-top: 16px;
+    margin-top: 16px;    
 }
 
 .sidebar .nav-links li {
@@ -55,6 +55,8 @@ body {
     display: flex;
     align-items: center;
     text-decoration: none;
+    border-radius: 10px;  
+    margin: 5px;  
 }
 
 .sidebar .nav-links li a .sidebar-icon {
