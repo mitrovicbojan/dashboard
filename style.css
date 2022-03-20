@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+:root {
+    --white-color: #F9F9F9;
+    --gray-light: #E9EAEB;
+    --gray-dark: #525B60;
+    --black-prim: #283339;
+    --top-nav-color: #303798;
+    --sidenav-color: #3A42B7;
+    --sidenav-hover: #303798;
+    --animation-duration: 200ms;
+    --animation-timing-curve: ease-in-out;
+    --header-height: 40px;
+}
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 240px;
+    background: var(--white-color);
+    transition: all 0.5s ease;
+}
+.sidebar.active {
+    width: 60px;
+}
+
+.sidebar .logo-details {
+    height: 80px;
+    width: 100%;
+    margin: 16px;
+}
+
+.sidebar .nav-links {
+    margin-top: 16px;
+}
+
+.sidebar .nav-links li {
+    height: 50px;
+    width: 100%;
+    list-style: none;
+}
+.sidebar .nav-links li a {    
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.sidebar .nav-links li a .sidebar-icon {
+    fill: var(--black-prim);
+    min-width: 60px;        
+}
+
+.sidebar .nav-links li a .link-name {
+    color: var(--black-prim);
+    font-size: 18px;
+    font-weight: 400;
+    white-space: nowrap;
+}
+
+.sidebar .nav-links li a:hover{
+    background: var(--sidenav-color);    
+}
+.sidebarBtn {
+    cursor: pointer;
+}
+
+/* hero section */
+.sidebar.active ~ .hero-section {
+    width: calc(100% - 60px);
+    left: 60px;
+}
+.hero-section {
+    background: var(--white-color);
+    position: relative;
+    min-height: 100vh;
+    width: calc(100% - 240px);
+    left: 240px;
+    transition: all 0.5s ease;
+}
+.hero-section nav {
+    height: 80px;
+    background: var(--white-color);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-section nav .sidebar-button {
+    display: flex;
+    align-items: center;    
+    font-weight: 500;    
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logout button {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.nav-logout button .sidebar-icon {
+    fill: var(--black-prim);
+    margin-right: 5px;
+}
+
+.hero-section nav .sidebar-button .nav-link-active {
+    font-size: 34px;
+    margin-left: 15px;
+}
+
+.hero-section nav .search-box {
+    height: 50px;
+    width: 550px;
+    margin: 0 20px;
+    position: relative;
+}
+
+nav .search-box input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid var(--black-prim);
+    outline: none;
+    padding: 0 10px;
+    font-size: 18px;
+}
+
+nav .search-box .search-icon {
+    position: absolute;
+    background: var(--sidenav-color);
+    right: 5px;    
+    border-radius: 6px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
