@@ -178,7 +178,11 @@ nav .search-box .search-icon {
     align-items: center;
     flex-direction: column;
     margin: 50px;
+    padding: 50px;
     margin-bottom: 100px;
+    border: 1px solid var(--gray-dark);
+    border-radius: 6px;
+    background: #F9F9F9;
 }
 
 .date-inputs {
@@ -253,3 +257,38 @@ nav .search-box .search-icon {
     font-size: 18px;
     border: none;    
 }
+
+/* check availability */
+
+.check-avail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    margin-bottom: 100px;
+    border: 2px solid lightseagreen;
+    border-radius: 6px;
+    background: lightseagreen;
+    width: 540px;
+    margin: 50px;      
+}
+
+.check-avail .check-title {
+    margin-bottom: 10px;      
+}
+
+.check-avail .check-title h3 {
+    color: var(--white-color);
+    margin-top: 5px;
+    font-size: 26px;
+}
+
+.check-avail .display-avail {
+    background-color: var(--white-color);
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 6px;
+    padding: 25px;    
+}
+
