@@ -324,3 +324,21 @@ nav .search-box .search-icon {
     align-items: center;
     justify-content: center;
 }
+
+.avail-map .no-availability {
+    border: 2px solid red;
+    margin: 50px;
+    padding: 20px;
+    background: rgb(252, 169, 169);
+    border-radius: 6px;
+}
+
+.avail-map .no-availability .display-no-avail {
+    display: flex;
+    justify-content: center;    
+}
+
+.avail-map .no-availability .display-no-avail h3 {
+    font-size: 22px;
+    color: red;
+}
