@@ -292,3 +292,35 @@ nav .search-box .search-icon {
     padding: 25px;    
 }
 
+.display-avail .display-cabins {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--gray-light);
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.display-avail .display-cruise {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--gray-light);
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.display-avail .display-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--gray-light);
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.display-avail .add-option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
