@@ -28,8 +28,9 @@ body {
     height: 100%;
     width: 240px;
     background: var(--white-color);
-    transition: all 0.5s ease;
-   
+    transition: all 0.5s ease;    
+    border-right: 2px solid red;
+    padding: 10px;  
 }
 .sidebar.active {
     width: 60px;
@@ -38,17 +39,21 @@ body {
 .sidebar .logo-details {
     height: 80px;
     width: 100%;
-    margin: 16px;
+    margin: 16px;   
 }
 
 .sidebar .nav-links {
-    margin-top: 16px;    
+    margin-top: 16px;      
 }
 
 .sidebar .nav-links li {
     height: 50px;
     width: 100%;
-    list-style: none;     
+    list-style: none;   
+}
+.sidebar .nav-links li:hover {
+    background: #303798;    
+    border-radius: 10px;
 }
 .sidebar .nav-links li a {    
     height: 100%;
@@ -71,8 +76,8 @@ body {
     white-space: nowrap; 
 }
 
-.sidebar .nav-links li a:hover{
-    background: var(--sidenav-color);      
+.sidebar .nav-links li a .link-name:hover{
+    border-bottom: 2px solid var(--sidenav-color);      
 }
 .sidebarBtn {
     cursor: pointer;
