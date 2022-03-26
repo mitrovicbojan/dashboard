@@ -160,8 +160,6 @@ nav .search-box .search-icon {
     cursor: pointer;
 }
 
-
-
 .avail-map {       
     width: 636px;
     height: 352px;
@@ -179,7 +177,7 @@ nav .search-box .search-icon {
     flex-direction: column;
     margin: 50px;
     padding: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     border: 1px solid var(--gray-dark);
     border-radius: 6px;
     background: #F9F9F9;
@@ -323,6 +321,16 @@ nav .search-box .search-icon {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.option-btn {
+    padding: 7px 15px;
+    background: var(--sidenav-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
 }
 
 .avail-map .no-availability {
