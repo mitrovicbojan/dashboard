@@ -268,7 +268,8 @@ nav .search-box .search-icon {
     border-radius: 6px;
     background: lightseagreen;
     width: 540px;
-    margin: 50px;      
+    margin: 50px;  
+    display: none;    
 }
 
 .check-avail .check-title {
@@ -279,6 +280,9 @@ nav .search-box .search-icon {
     color: var(--white-color);
     margin-top: 5px;
     font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .check-avail .display-avail {
