@@ -47,7 +47,7 @@ body {
 }
 
 .sidebar .nav-links li {
-    height: 50px;
+    height: 100%;
     width: 100%;
     list-style: none;   
 }
@@ -353,4 +353,51 @@ nav .search-box .search-icon {
 .avail-map .no-availability .display-no-avail h3 {
     font-size: 22px;
     color: red;
+}
+
+/* check availability ends */
+
+/* Cruise Plan Starts */
+
+.cruise-plan {
+    position: absolute;  
+    width: 100%;    
+}
+
+.cruise-plan-btn {       
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border: 2px solid red;
+    margin: 20px;   
+    position: absolute; 
+}
+
+.cruise-plan-btn button {
+    margin: 10px;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;    
+    background-color: var(--sidenav-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 6px;
+}
+
+.cruise-plan .cabin-plan {
+    position: absolute;
+    width: 250px;
+    margin: 150px;
+    padding: 25px;
+    display: flex;
+    border: 2px solid red;
+}
+
+.cabin-plan .cabin-types {
+    width: 250px;
+    border: 2px solid red;    
+}
+
+.cabin-plan .cabin-types .cabin-img img {
+    width: 150px;
 }
