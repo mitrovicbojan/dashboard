@@ -385,8 +385,8 @@ nav .search-box .search-icon {
 }
 
 .cruise-plan .cabin-plan {
-    position: absolute;
-    width: 250px;
+    position: relative;
+    width: auto;
     margin: 150px;
     padding: 25px;
     display: flex;
