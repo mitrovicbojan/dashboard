@@ -401,3 +401,29 @@ nav .search-box .search-icon {
 .cabin-plan .cabin-types .cabin-img img {
     width: 150px;
 }
+
+/*Prices Start*/
+
+.cruise {
+    margin: 50px;
+    width: 250px; 
+    display: flex;   
+}
+
+.cruise img {
+    width: 250px;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+.cruise h3 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.cruise p {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
