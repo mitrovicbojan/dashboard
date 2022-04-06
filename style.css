@@ -91,7 +91,7 @@ body {
 .hero-section {
     background: var(--white-color);
     position: relative;
-    min-height: 100vh;
+    min-height: 100vw;
     width: calc(100% - 240px);
     left: 240px;
     transition: all 0.5s ease;    
@@ -405,6 +405,17 @@ nav .search-box .search-icon {
 /*Prices Start*/
 .currency-exchange {
     margin: 50px;    
+}
+
+.currency-input {
+    padding: 10px;
+}
+
+.currency-input input {
+    font-size: 18px;
+    padding: 5px;
+    border: 2px solid var(--sidenav-color);
+    border-radius: 6px;
 }
 .cruise {
     margin: 50px;
