@@ -404,7 +404,8 @@ nav .search-box .search-icon {
 
 /*Prices Start*/
 .currency-exchange {
-    margin: 50px;    
+    margin: 50px;
+    display: flex;        
 }
 
 .currency-input {
