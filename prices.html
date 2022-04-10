@@ -137,17 +137,21 @@
         </nav>
         <main class="avail-map">
             <div class="currency-exchange">
-                <div class="currency-input">
-                    <input type="number">
-                    <select>
-                        <option value="currency">Currency</option>
-                    </select>
+                <div class="converter">
+                    <div>
+                        <input type="number" id="number">
+                    </div>
+                    <div>
+                        <select name="currency" class="currency" onchange="updateRates()"></select>
+                    </div>        
                 </div>
-                <div class="currency-input">
-                    <input type="number">
-                    <select>
-                        <option value="currency">Currency</option>
-                    </select>
+                <div class="converter">
+                    <div>
+                        <input type="number" id="converted">
+                    </div>
+                    <div>
+                        <select name="currency" class="currency" onchange="updateRates()"></select>
+                    </div>        
                 </div>
             </div>
             <div class="cruise">
@@ -183,5 +187,6 @@
         </main>
     </section>
     <script src="./app.js"></script>
+    <script src="./exchange.js"></script>
 </body>
 </html>
