@@ -418,6 +418,18 @@ nav .search-box .search-icon {
     border: 2px solid var(--sidenav-color);
     border-radius: 6px;
 }
+.converter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.converter .currency {
+    padding: 8px;
+    border-radius: 6px;
+    background-color: #5058C8;
+    color: #E9EAEB;
+}
 .cruise {
     margin: 50px;
     width: 500px; 
