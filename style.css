@@ -429,6 +429,7 @@ nav .search-box .search-icon {
     border-radius: 6px;
     background-color: #5058C8;
     color: #E9EAEB;
+    cursor: pointer;
 }
 .cruise {
     margin: 50px;
