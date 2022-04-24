@@ -397,7 +397,8 @@ nav .search-box .search-icon {
 .cabin-plan .cabin-types {
     width: 250px;
     border: 2px solid red; 
-    margin: auto;         
+    padding: 25px; 
+    margin-bottom: 15px;        
 }
 
 .cabin-plan .cabin-types .cabin-img img {
