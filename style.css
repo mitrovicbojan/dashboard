@@ -1,4 +1,4 @@
-* {
+*, ::before, ::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -361,7 +361,8 @@ nav .search-box .search-icon {
 
 .cruise-plan {
     position: absolute;  
-    width: auto;    
+    width: auto;  
+    height: auto;  
 }
 
 .cruise-plan-btn {       
@@ -393,11 +394,10 @@ nav .search-box .search-icon {
     border: 2px solid red;
     flex-direction: column;    
 }
-
 .cabin-plan .cabin-types {
     width: 250px;
     border: 2px solid red; 
-    margin: 25px;     
+    margin: auto;         
 }
 
 .cabin-plan .cabin-types .cabin-img img {
