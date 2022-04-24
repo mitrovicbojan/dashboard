@@ -361,7 +361,7 @@ nav .search-box .search-icon {
 
 .cruise-plan {
     position: absolute;  
-    width: 100%;    
+    width: auto;    
 }
 
 .cruise-plan-btn {       
@@ -391,11 +391,13 @@ nav .search-box .search-icon {
     padding: 25px;
     display: flex;
     border: 2px solid red;
+    flex-direction: column;    
 }
 
 .cabin-plan .cabin-types {
     width: 250px;
-    border: 2px solid red;    
+    border: 2px solid red; 
+    margin: 25px;     
 }
 
 .cabin-plan .cabin-types .cabin-img img {
