@@ -460,3 +460,11 @@ nav .search-box .search-icon {
     margin-bottom: 5px;
     padding: 15px;
 }
+
+.itinerary {
+    display: flex;
+    margin: 100px;
+    border: 2px solid red;
+    width: 300px;
+    overflow: hidden;    
+}
