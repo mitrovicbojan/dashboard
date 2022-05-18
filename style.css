@@ -506,4 +506,10 @@ nav .search-box .search-icon {
     border-bottom: 2px solid rgb(66, 161, 66);
     border-left: 2px solid rgb(66, 161, 66);
     border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.itinerary-details p {
+    padding: 5px;
+    line-height: 25px;
 }
