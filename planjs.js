@@ -9,6 +9,33 @@ const cabins = [
         photo: "./seychelles.jpg" 
     },
     {
+        id: 1,
+        remarks: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, animi.",
+        cabineType: "Cabin A",
+        cat: "a",
+        gusetOne: "Janos",
+        gusetTwo: "Slavko",
+        photo: "./seychelles.jpg" 
+    },
+    {
+        id: 1,
+        remarks: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, animi.",
+        cabineType: "Cabin A",
+        cat: "a",
+        gusetOne: "Janos",
+        gusetTwo: "Slavko",
+        photo: "./seychelles.jpg" 
+    },
+    {
+        id: 1,
+        remarks: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, animi.",
+        cabineType: "Cabin A",
+        cat: "a",
+        gusetOne: "Janos",
+        gusetTwo: "Slavko",
+        photo: "./seychelles.jpg" 
+    },
+    {
         id: 2,
         remarks: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, animi.",
         cabineType: "Cabin B",
@@ -35,6 +62,43 @@ const cabins = [
         gusetTwo: "Slavko",
         photo: "./tahiti.jpg" 
     },
+    {
+        id: 5,
+        remarks: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, animi.",
+        cabineType: "Cabin P",
+        cat: "p",
+        gusetOne: "Janos",
+        gusetTwo: "Slavko",
+        photo: "./tahiti.jpg" 
+    },
+    {
+        id: 6,
+        remarks: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, animi.",
+        cabineType: "Cabin P",
+        cat: "p",
+        gusetOne: "Janos",
+        gusetTwo: "Slavko",
+        photo: "./tahiti.jpg" 
+    },
+    {
+        id: 7,
+        remarks: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, animi.",
+        cabineType: "Cabin P",
+        cat: "p",
+        gusetOne: "Janos",
+        gusetTwo: "Slavko",
+        photo: "./tahiti.jpg" 
+    },
+    {
+        id: 8,
+        remarks: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, animi.",
+        cabineType: "Cabin P",
+        cat: "p",
+        gusetOne: "Janos",
+        gusetTwo: "Slavko",
+        photo: "./tahiti.jpg" 
+    },
+
 
 ]
 
