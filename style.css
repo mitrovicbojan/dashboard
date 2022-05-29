@@ -361,15 +361,14 @@ nav .search-box .search-icon {
 
 .cruise-plan {
     position: absolute;  
-    width: auto;  
+    width: 100%;  
     height: auto;  
 }
 
 .cruise-plan-btn {       
     display: flex;
     justify-content: center;
-    align-items: center; 
-    border: 2px solid red;
+    align-items: center;     
     margin: 20px;   
     position: absolute; 
 }
@@ -383,26 +382,34 @@ nav .search-box .search-icon {
     color: var(--white-color);
     border: none;
     border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;    
 }
 
-.cruise-plan .cabin-plan {
-    position: relative;
-    width: auto;
-    margin: 150px;
+.cruise-plan-btn button:hover {
+    color: var(--sidenav-color);
+    background-color: var(--white-color);
+    transition: .25s ease-in-out;
+}
+
+.cruise-plan .cabin-plan {    
+    width: 100%;
+    margin-top: 50px;
     padding: 25px;
-    display: flex;
-    border: 2px solid red;
-    flex-direction: column;    
+    display: flex;       
+    flex-wrap: wrap;
 }
 .cabin-plan .cabin-types {
-    width: 250px;
-    border: 2px solid red; 
+    width: 250px;     
     padding: 25px; 
-    margin-bottom: 15px;        
+    margin: 15px;
+    margin-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;            
 }
 
 .cabin-plan .cabin-types .cabin-img img {
-    width: 150px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    margin-bottom: 10px;
 }
 
 /*Prices Start*/
