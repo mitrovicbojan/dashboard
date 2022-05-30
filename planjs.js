@@ -49,7 +49,7 @@ const cabins = [
         remarks: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, animi.",
         cabineType: "Cabin C",
         cat: "c",
-        gusetOne: "Janos",
+        gusetOne: "Janos Pecaros",
         gusetTwo: "Slavko",
         photo: "./greece.jpg" 
     },
@@ -137,11 +137,13 @@ function showCabinCat(cabinCats) {
             <h3>${item.cabineType}</h3>
         </div>
         <div class="cabin-pax">
+            <h4>Guests:</h4>
             <p>${item.gusetOne}</p>
             <p>${item.gusetTwo}</p>
+            <a class="cabin-pax-details">View details</a>
         </div>
         <div class="cabin-remarks">
-            <p>Remarks:</p>
+            <h3 class="cabin-remarks-title">Remarks:</h3>
             <p>${item.remarks}</p>
         </div>
     </div>`

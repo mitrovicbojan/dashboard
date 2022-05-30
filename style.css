@@ -406,6 +406,37 @@ nav .search-box .search-icon {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;            
 }
 
+.cabin-plan-cat {
+    margin-bottom: 5px;
+    color: var(--sidenav-color);
+}
+
+.cabin-pax {
+    margin-bottom: 5px;
+    font-size: 18px;  
+    border-bottom: 2px solid var(--sidenav-color);  
+}
+
+.cabin-pax p {
+    margin-bottom: 5px;
+}
+
+.cabin-pax-details {
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--sidenav-color);       
+}
+
+.cabin-pax h4 {
+    margin-bottom: 5px;
+    border-bottom: 2px solid var(--sidenav-color);
+}
+
+.cabin-remarks-title {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .cabin-plan .cabin-types .cabin-img img {
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
