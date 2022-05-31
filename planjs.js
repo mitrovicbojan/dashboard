@@ -73,7 +73,7 @@ const cabins = [
     },
     {
         id: 6,
-        remarks: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, animi.",
+        remarks: "",
         cabineType: "Cabin P",
         cat: "p",
         gusetOne: "Janos",
@@ -91,7 +91,7 @@ const cabins = [
     },
     {
         id: 8,
-        remarks: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, animi.",
+        remarks: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, animi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, animiLorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, animi",
         cabineType: "Cabin P",
         cat: "p",
         gusetOne: "Janos",
@@ -139,13 +139,13 @@ function showCabinCat(cabinCats) {
         <div class="cabin-pax">
             <h4>Guests:</h4>
             <p>${item.gusetOne}</p>
-            <p>${item.gusetTwo}</p>
-            <a class="cabin-pax-details">View details</a>
+            <p>${item.gusetTwo}</p>            
         </div>
         <div class="cabin-remarks">
             <h3 class="cabin-remarks-title">Remarks:</h3>
             <p>${item.remarks}</p>
         </div>
+        <a class="cabin-pax-details">Edit details</a>
     </div>`
     });
     showCabin = showCabin.join('');

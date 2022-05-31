@@ -424,14 +424,18 @@ nav .search-box .search-icon {
 .cabin-pax-details {
     cursor: pointer;
     font-size: 16px;
-    color: var(--sidenav-color);       
+    color: var(--sidenav-color);  
+    float: right;   
+    margin-top: 15px;        
 }
 
 .cabin-pax h4 {
     margin-bottom: 5px;
     border-bottom: 2px solid var(--sidenav-color);
 }
-
+.cabin-remarks {
+    height: auto;
+}
 .cabin-remarks-title {
     margin-top: 15px;
     margin-bottom: 15px;
