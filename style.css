@@ -480,13 +480,15 @@ nav .search-box .search-icon {
 /*cruise */
 .cruise {
     margin: 50px;
-    width: 500px; 
+    width: 100%; 
     display: flex;    
 }
 
 .iti-details {
-    display: flex;
-    margin: 15px;
+    display: flex; 
+    position: absolute;  
+    margin: 50px;
+    flex-wrap: wrap;    
 }
 .cruise img {
     width: 230px;
@@ -510,8 +512,8 @@ nav .search-box .search-icon {
 }
 
 .itinerary {
-    display: flex;
-    margin: 100px;
+    display: flex;    
+    margin: 50px;        
     border: 2px solid var(--gray-light);
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;    
