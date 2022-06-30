@@ -90,8 +90,10 @@ body {
 .sidebar.active ~ .hero-section {
   width: calc(100% - 60px);
   left: 60px;
+  transition: 0.3s ease-in-out;
 }
 .sidebar.active {
+  transition: 0.3s ease-in-out;
   overflow: hidden;
 }
 
